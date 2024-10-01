@@ -1,0 +1,301 @@
+
+ /*=========================================Login Form===========================*/
+ .login-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-logo span {
+  color: #ffffff;
+  font-size: 24px;
+}
+.login-logo img {
+  height: 75px;
+}
+.login-content {
+  margin: 100px 0;
+}
+.login-form {
+  background: #ffffff;
+  padding: 30px 30px 20px;
+  border-radius: 2px;
+}
+.login-form h4 {
+  color: #455a64;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login-form .checkbox {
+  color: #455a64;
+}
+.login-form .checkbox label {
+  text-transform: none;
+}
+.login-form .btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px;
+  border: 0px;
+}
+/* label */
+.login-form label {
+  color: #000;
+  text-transform: uppercase;
+}
+/* box */
+.form-control{
+  color: #495057 !important;
+}
+/* password */
+.login-form label a {
+  color: red;
+}
+.login-btn {
+  background: #402b56;
+  border: 1px solid #402b56;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14),
+    0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14),
+    0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.social-login-content {
+  margin: 0px -30px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 30px 0px;
+  background: #fcfcfc;
+}
+.social-button {
+  padding: 0 30px;
+}
+.social-button i {
+  padding: 19px;
+}
+.register-link a {
+  color: #4680ff;
+}
+ /*=========================================Login Form End===========================*/
+
+ /*=========================================Sidebar===========================*/
+.sidebar-nav {
+  /* background: #fff;*/
+  background: #3a4651;
+  padding: 0;
+}
+.sidebar-nav ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar-nav ul li {
+  list-style: none;
+}
+.sidebar-nav ul li a {
+  /* color: #607d8b;
+    color: #f9fdff;*/
+  color: #a9bac3;
+  padding: 7px 35px 7px 15px;
+  display: block;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.sidebar-nav ul li a:hover {
+  /*color: #1976d2;*/
+  color: #f9fdff;
+}
+/* .sidebar-nav ul li a:hover i { */
+/*color: #1976d2;*/
+
+/* } */
+
+.sidebar-nav ul li a.active {
+  /*color: #1976d2;*/
+  background: #85ce36 !important;
+  color: #f9fdff;
+  font-weight: 500;
+}
+.sidebar-nav ul li a.active i {
+  /* color: #1976d2;*/
+  color: #f9fdff;
+  /*background: #85CE36 !important;*/
+}
+.sidebar-nav ul li ul {
+  padding-left: 28px;
+}
+.sidebar-nav ul li ul li a {
+  padding: 7px 35px 7px 15px;
+}
+.sidebar-nav ul li ul ul {
+  padding-left: 15px;
+}
+.sidebar-nav ul li.nav-label {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding: 14px 14px 14px 20px;
+  color: #f3f5f7;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.sidebar-nav ul li.nav-devider {
+  height: 1px;
+  background: rgba(120, 130, 140, 0.13);
+  display: block;
+}
+.sidebar-nav > ul > li {
+  margin-bottom: 5px;
+}
+.sidebar-nav > ul > li > a {
+  border-left: 3px solid transparent;
+}
+.sidebar-nav > ul > li > a i {
+  width: 27px;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  /*color: #99abb4;*/
+}
+.sidebar-nav > ul > li > a .label {
+  position: absolute;
+  right: 35px;
+  top: 8px;
+}
+.sidebar-nav > ul > li > a.active {
+  height: 48px;
+  font-weight: 400;
+  /* background: #fff;*/
+  background: #85ce36 !important;
+  color: #1976d2;
+}
+.sidebar-nav > ul > li.active > a {
+  padding: 6%;
+  /*color: #1976d2;*/
+  color: #fdfeff;
+  font-weight: 500;
+  border-left: 3px solid #fff;
+}
+.sidebar-nav > ul > li.active > a i {
+  /*color: #1976d2;*/
+  color: #f2f3f5;
+}
+.sidebar-nav .has-arrow {
+  position: relative;
+}
+.sidebar-nav .has-arrow:after {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-width: 1px 0 0 1px;
+  border-style: solid;
+  border-color: #607d8b;
+  right: 1em;
+  -webkit-transform: rotate(135deg) translate(0, -50%);
+  -ms-transform: rotate(135deg) translate(0, -50%);
+  -o-transform: rotate(135deg) translate(0, -50%);
+  transform: rotate(135deg) translate(0, -50%);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  -o-transform-origin: top;
+  transform-origin: top;
+  top: 47%;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.sidebar-nav .active > .has-arrow:after {
+  -webkit-transform: rotate(-135deg) translate(0, -50%);
+  -ms-transform: rotate(-135deg) translate(0, -50%);
+  -o-transform: rotate(-135deg) translate(0, -50%);
+  top: 45%;
+  width: 7px;
+  transform: rotate(-135deg) translate(0, -50%);
+}
+.sidebar-nav .has-arrow[aria-expanded="true"]:after {
+  -webkit-transform: rotate(-135deg) translate(0, -50%);
+  -ms-transform: rotate(-135deg) translate(0, -50%);
+  -o-transform: rotate(-135deg) translate(0, -50%);
+  top: 45%;
+  width: 7px;
+  transform: rotate(-135deg) translate(0, -50%);
+}
+.sidebar-nav li > .has-arrow.active:after {
+  -webkit-transform: rotate(-135deg) translate(0, -50%);
+  -ms-transform: rotate(-135deg) translate(0, -50%);
+  -o-transform: rotate(-135deg) translate(0, -50%);
+  top: 45%;
+  width: 7px;
+  transform: rotate(-135deg) translate(0, -50%);
+}
+
+ /*=========================================Login Form End===========================*/
+
+  /*=========================================Card Dashboard===========================*/
+.card {
+  background: #ffffff none repeat scroll 0 0;
+  margin: 15px 0;
+  padding: 20px;
+  border: 0 solid #e7e7e7;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+.card-subtitle {
+  font-size: 12px;
+  margin: 10px 0;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.card-title h4 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.card-title p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 12px;
+}
+.left {
+  background-color: #402b56 !important;
+}
+.middle {
+  background: #bc58ce !important;
+  color: #ffffff;
+  fill: #e6a1f2;
+}
+.right {
+  /* background: #fc6180 !important; */
+  color: #ffffff;
+  fill: #fc6180;
+}
+
+ /*=========================================Card Dashboard End===========================*/
+
+
+
+ /*=========================================h3 Details Heading and table===========================*/
+.heading{
+  color: #4680ff !important;
+}
+thead tr th {
+  /* color: black; */
+  font-weight: 500;
+}
+
+tbody tr th {
+  /* color: black; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+tbody tr td{
+  color: #000;
+}
+
+ /*=========================================Error Code===========================*/
+.help-block {
+  color: red;
+}
